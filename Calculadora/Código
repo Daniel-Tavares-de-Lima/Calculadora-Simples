@@ -1,0 +1,31 @@
+numero1 = 0
+numero2 = 0
+numero3 = 0
+numero4 = 0
+numero5 = 0
+numero6 = 0
+numero7 = 0
+numero8 = 0
+operacao = ""
+
+escolha = str(input("Escolha qual operação voce deseja realizar: + - / *:"))
+if escolha == "+":
+    numero1 = float(input("Digite o primeiro numero:"))
+    numero2 = float(input("Digite o segundo numero:"))
+    operacao = numero1 + numero2
+    print(operacao)
+if escolha == "-":
+    numero3 = float(input("Digite o primeiro numero:"))
+    numero4 = float(input("Digite o segundo numero:"))
+    operacao = numero3 - numero4
+    print(operacao)
+if escolha == "/":
+    numero5 = float(input("Digite o primeiro número:"))
+    numero6 = float(input("Digite o segundo número:"))
+    operacao = numero5 / numero6
+    print(operacao)
+if escolha == "*":
+   numero7 = float(input("Digite o primeiro número:"))
+   numero8 = float(input("Digite o segundo número:"))
+   operacao = numero7 * numero8
+   print (operacao)
